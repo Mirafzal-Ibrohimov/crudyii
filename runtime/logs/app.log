@@ -1,0 +1,937 @@
+2022-10-30 10:25:42 [127.0.0.1][-][ts3rtf0acd7g1k5vaaheib4iq4v0a20s][error][Error] Error: Class "Html" not found in C:\OpenServer\domains\crud\views\site\home.php:33
+Stack trace:
+#0 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\View.php(347): require()
+#1 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#2 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#3 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render()
+#4 C:\OpenServer\domains\crud\controllers\SiteController.php(64): yii\base\Controller->render()
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#7 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#8 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#9 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#10 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#11 C:\OpenServer\domains\crud\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2022-10-30 10:25:42 [127.0.0.1][-][ts3rtf0acd7g1k5vaaheib4iq4v0a20s][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ts3rtf0acd7g1k5vaaheib4iq4v0a20s'
+    '_csrf' => '7548e53315a55db46459142ff8873a71bc1fb2d3e27ae429956376fb5749e220a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Rg39PDLGlhz7HLvUIaPMz1aSJ7AogvHn\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'crud'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://crud/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ts3rtf0acd7g1k5vaaheib4iq4v0a20s; _csrf=7548e53315a55db46459142ff8873a71bc1fb2d3e27ae429956376fb5749e220a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Rg39PDLGlhz7HLvUIaPMz1aSJ7AogvHn%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.0\\ext;c:\\openserver\\modules\\php\\PHP_8.0\\pear;c:\\openserver\\modules\\php\\PHP_8.0\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.0;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.7\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'crud'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/crud'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/crud'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/crud/web/index.php'
+    'REMOTE_PORT' => '61595'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1667114742.0991
+    'REQUEST_TIME' => 1667114742
+]
+2022-10-30 10:27:18 [127.0.0.1][-][ts3rtf0acd7g1k5vaaheib4iq4v0a20s][error][yii\base\ErrorException:2] yii\base\ErrorException: Undefined array key 0 in C:\OpenServer\domains\crud\vendor\yiisoft\yii2\helpers\BaseUrl.php:99
+Stack trace:
+#0 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\helpers\BaseUrl.php(99): yii\base\ErrorHandler->handleError()
+#1 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\helpers\BaseUrl.php(214): yii\helpers\BaseUrl::toRoute()
+#2 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\helpers\BaseHtml.php(419): yii\helpers\BaseUrl::to()
+#3 C:\OpenServer\domains\crud\views\site\home.php(33): yii\helpers\BaseHtml::a()
+#4 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\View.php(347): require('C:\\OpenServer\\d...')
+#5 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#6 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#7 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render()
+#8 C:\OpenServer\domains\crud\controllers\SiteController.php(64): yii\base\Controller->render()
+#9 [internal function]: app\controllers\SiteController->actionIndex()
+#10 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#11 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#12 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#13 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#14 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#15 C:\OpenServer\domains\crud\web\index.php(12): yii\base\Application->run()
+#16 {main}
+2022-10-30 10:27:18 [127.0.0.1][-][ts3rtf0acd7g1k5vaaheib4iq4v0a20s][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'ts3rtf0acd7g1k5vaaheib4iq4v0a20s'
+    '_csrf' => '7548e53315a55db46459142ff8873a71bc1fb2d3e27ae429956376fb5749e220a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"Rg39PDLGlhz7HLvUIaPMz1aSJ7AogvHn\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'crud'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://crud/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ts3rtf0acd7g1k5vaaheib4iq4v0a20s; _csrf=7548e53315a55db46459142ff8873a71bc1fb2d3e27ae429956376fb5749e220a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22Rg39PDLGlhz7HLvUIaPMz1aSJ7AogvHn%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.0\\ext;c:\\openserver\\modules\\php\\PHP_8.0\\pear;c:\\openserver\\modules\\php\\PHP_8.0\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.0;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.7\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'crud'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/crud'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/crud'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/crud/web/index.php'
+    'REMOTE_PORT' => '61599'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/web/'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1667114838.7323
+    'REQUEST_TIME' => 1667114838
+]
+2022-10-31 18:21:42 [127.0.0.1][-][87th57heh135joqaaata4cfeo4a2n2ou][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: site/create in C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#1 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#2 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#3 C:\OpenServer\domains\crud\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\OpenServer\domains\crud\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 C:\OpenServer\domains\crud\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2022-10-31 18:21:42 [127.0.0.1][-][87th57heh135joqaaata4cfeo4a2n2ou][info][application] $_GET = [
+    'r' => 'site/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '87th57heh135joqaaata4cfeo4a2n2ou'
+    '_csrf' => '6c5a0798f4db135b49b604e86669dd0e4fddfc04e49cf7319756995051211c94a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4OTFcmP820Goo85guuNIwry_V1O0BSe8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'qefoqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'crud'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://crud/web/index.php?r=site%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=87th57heh135joqaaata4cfeo4a2n2ou; _csrf=6c5a0798f4db135b49b604e86669dd0e4fddfc04e49cf7319756995051211c94a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224OTFcmP820Goo85guuNIwry_V1O0BSe8%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.0\\ext;c:\\openserver\\modules\\php\\PHP_8.0\\pear;c:\\openserver\\modules\\php\\PHP_8.0\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.0;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.7\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'crud'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/crud'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/crud'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/crud/web/index.php'
+    'REMOTE_PORT' => '49320'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcreate'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fcreate'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1667229702.7915
+    'REQUEST_TIME' => 1667229702
+]
+2022-10-31 18:25:17 [127.0.0.1][-][87th57heh135joqaaata4cfeo4a2n2ou][error][ParseError] ParseError: syntax error, unexpected token "{", expecting "(" in C:\OpenServer\domains\crud\controllers\SiteController.php:69
+Stack trace:
+#0 [internal function]: yii\BaseYii::autoload()
+#1 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Module.php(661): class_exists()
+#2 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Module.php(620): yii\base\Module->createControllerByID()
+#3 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Module.php(546): yii\base\Module->createController()
+#4 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#5 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#6 C:\OpenServer\domains\crud\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2022-10-31 18:25:17 [127.0.0.1][-][87th57heh135joqaaata4cfeo4a2n2ou][info][application] $_GET = [
+    'r' => 'site/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '87th57heh135joqaaata4cfeo4a2n2ou'
+    '_csrf' => '6c5a0798f4db135b49b604e86669dd0e4fddfc04e49cf7319756995051211c94a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4OTFcmP820Goo85guuNIwry_V1O0BSe8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'qefoqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'crud'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://crud/web/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=87th57heh135joqaaata4cfeo4a2n2ou; _csrf=6c5a0798f4db135b49b604e86669dd0e4fddfc04e49cf7319756995051211c94a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224OTFcmP820Goo85guuNIwry_V1O0BSe8%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.0\\ext;c:\\openserver\\modules\\php\\PHP_8.0\\pear;c:\\openserver\\modules\\php\\PHP_8.0\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.0;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.7\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'crud'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/crud'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/crud'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/crud/web/index.php'
+    'REMOTE_PORT' => '49373'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Findex'
+    'REQUEST_URI' => '/web/index.php?r=site%2Findex'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1667229917.0172
+    'REQUEST_TIME' => 1667229917
+]
+2022-10-31 18:48:02 [127.0.0.1][-][87th57heh135joqaaata4cfeo4a2n2ou][error][Error] Error: Undefined constant "php" in C:\OpenServer\domains\crud\views\site\create.php:1
+Stack trace:
+#0 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\View.php(347): require()
+#1 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#2 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#3 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render()
+#4 C:\OpenServer\domains\crud\controllers\SiteController.php(71): yii\base\Controller->render()
+#5 [internal function]: app\controllers\SiteController->actionCreate()
+#6 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#7 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#8 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#9 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#10 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#11 C:\OpenServer\domains\crud\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2022-10-31 18:48:02 [127.0.0.1][-][87th57heh135joqaaata4cfeo4a2n2ou][info][application] $_GET = [
+    'r' => 'site/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '87th57heh135joqaaata4cfeo4a2n2ou'
+    '_csrf' => '6c5a0798f4db135b49b604e86669dd0e4fddfc04e49cf7319756995051211c94a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4OTFcmP820Goo85guuNIwry_V1O0BSe8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'qefoqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'crud'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://crud/web/index.php?r=site%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=87th57heh135joqaaata4cfeo4a2n2ou; _csrf=6c5a0798f4db135b49b604e86669dd0e4fddfc04e49cf7319756995051211c94a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224OTFcmP820Goo85guuNIwry_V1O0BSe8%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.0\\ext;c:\\openserver\\modules\\php\\PHP_8.0\\pear;c:\\openserver\\modules\\php\\PHP_8.0\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.0;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.7\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'crud'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/crud'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/crud'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/crud/web/index.php'
+    'REMOTE_PORT' => '61569'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcreate'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fcreate'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1667231282.2573
+    'REQUEST_TIME' => 1667231282
+]
+2022-10-31 18:48:03 [127.0.0.1][-][87th57heh135joqaaata4cfeo4a2n2ou][error][Error] Error: Undefined constant "php" in C:\OpenServer\domains\crud\views\site\create.php:1
+Stack trace:
+#0 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\View.php(347): require()
+#1 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#2 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#3 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render()
+#4 C:\OpenServer\domains\crud\controllers\SiteController.php(71): yii\base\Controller->render()
+#5 [internal function]: app\controllers\SiteController->actionCreate()
+#6 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#7 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#8 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#9 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#10 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#11 C:\OpenServer\domains\crud\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2022-10-31 18:48:03 [127.0.0.1][-][87th57heh135joqaaata4cfeo4a2n2ou][info][application] $_GET = [
+    'r' => 'site/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '87th57heh135joqaaata4cfeo4a2n2ou'
+    '_csrf' => '6c5a0798f4db135b49b604e86669dd0e4fddfc04e49cf7319756995051211c94a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4OTFcmP820Goo85guuNIwry_V1O0BSe8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'qefoqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'crud'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://crud/web/index.php?r=site%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=87th57heh135joqaaata4cfeo4a2n2ou; _csrf=6c5a0798f4db135b49b604e86669dd0e4fddfc04e49cf7319756995051211c94a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224OTFcmP820Goo85guuNIwry_V1O0BSe8%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.0\\ext;c:\\openserver\\modules\\php\\PHP_8.0\\pear;c:\\openserver\\modules\\php\\PHP_8.0\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.0;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.7\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'crud'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/crud'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/crud'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/crud/web/index.php'
+    'REMOTE_PORT' => '61570'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcreate'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fcreate'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1667231283.7106
+    'REQUEST_TIME' => 1667231283
+]
+2022-10-31 18:54:34 [127.0.0.1][-][87th57heh135joqaaata4cfeo4a2n2ou][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: Attribute name must contain word characters only. in C:\OpenServer\domains\crud\vendor\yiisoft\yii2\helpers\BaseHtml.php:2233
+Stack trace:
+#0 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\widgets\ActiveField.php(929): yii\helpers\BaseHtml::getAttributeName()
+#1 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\widgets\ActiveField.php(652): yii\widgets\ActiveField->addAriaAttributes()
+#2 C:\OpenServer\domains\crud\views\site\create.php(35): yii\widgets\ActiveField->dropDownList()
+#3 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\View.php(347): require('C:\\OpenServer\\d...')
+#4 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#5 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#6 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render()
+#7 C:\OpenServer\domains\crud\controllers\SiteController.php(71): yii\base\Controller->render()
+#8 [internal function]: app\controllers\SiteController->actionCreate()
+#9 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#10 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#11 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#12 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#13 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#14 C:\OpenServer\domains\crud\web\index.php(12): yii\base\Application->run()
+#15 {main}
+2022-10-31 18:54:33 [127.0.0.1][-][87th57heh135joqaaata4cfeo4a2n2ou][info][application] $_GET = [
+    'r' => 'site/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '87th57heh135joqaaata4cfeo4a2n2ou'
+    '_csrf' => '6c5a0798f4db135b49b604e86669dd0e4fddfc04e49cf7319756995051211c94a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4OTFcmP820Goo85guuNIwry_V1O0BSe8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'qefoqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'crud'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://crud/web/index.php?r=site%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=87th57heh135joqaaata4cfeo4a2n2ou; _csrf=6c5a0798f4db135b49b604e86669dd0e4fddfc04e49cf7319756995051211c94a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224OTFcmP820Goo85guuNIwry_V1O0BSe8%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.0\\ext;c:\\openserver\\modules\\php\\PHP_8.0\\pear;c:\\openserver\\modules\\php\\PHP_8.0\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.0;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.7\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'crud'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/crud'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/crud'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/crud/web/index.php'
+    'REMOTE_PORT' => '61627'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcreate'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fcreate'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1667231673.8691
+    'REQUEST_TIME' => 1667231673
+]
+2022-10-31 19:01:25 [127.0.0.1][-][87th57heh135joqaaata4cfeo4a2n2ou][error][ParseError] ParseError: syntax error, unexpected token "=>", expecting ")" in C:\OpenServer\domains\crud\views\site\create.php:44
+Stack trace:
+#0 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#1 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#2 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render()
+#3 C:\OpenServer\domains\crud\controllers\SiteController.php(71): yii\base\Controller->render()
+#4 [internal function]: app\controllers\SiteController->actionCreate()
+#5 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#6 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#7 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 C:\OpenServer\domains\crud\web\index.php(12): yii\base\Application->run()
+#11 {main}
+2022-10-31 19:01:25 [127.0.0.1][-][87th57heh135joqaaata4cfeo4a2n2ou][info][application] $_GET = [
+    'r' => 'site/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '87th57heh135joqaaata4cfeo4a2n2ou'
+    '_csrf' => '6c5a0798f4db135b49b604e86669dd0e4fddfc04e49cf7319756995051211c94a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4OTFcmP820Goo85guuNIwry_V1O0BSe8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'qefoqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'crud'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://crud/web/index.php?r=site%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=87th57heh135joqaaata4cfeo4a2n2ou; _csrf=6c5a0798f4db135b49b604e86669dd0e4fddfc04e49cf7319756995051211c94a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224OTFcmP820Goo85guuNIwry_V1O0BSe8%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.0\\ext;c:\\openserver\\modules\\php\\PHP_8.0\\pear;c:\\openserver\\modules\\php\\PHP_8.0\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.0;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.7\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'crud'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/crud'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/crud'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/crud/web/index.php'
+    'REMOTE_PORT' => '61667'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcreate'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fcreate'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1667232084.9793
+    'REQUEST_TIME' => 1667232084
+]
+2022-10-31 19:02:28 [127.0.0.1][-][87th57heh135joqaaata4cfeo4a2n2ou][error][Error] Error: Class "yii\helpexrs\html" not found in C:\OpenServer\domains\crud\views\site\create.php:44
+Stack trace:
+#0 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\View.php(347): require()
+#1 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#2 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#3 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render()
+#4 C:\OpenServer\domains\crud\controllers\SiteController.php(71): yii\base\Controller->render()
+#5 [internal function]: app\controllers\SiteController->actionCreate()
+#6 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#7 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#8 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#9 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#10 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#11 C:\OpenServer\domains\crud\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2022-10-31 19:02:27 [127.0.0.1][-][87th57heh135joqaaata4cfeo4a2n2ou][info][application] $_GET = [
+    'r' => 'site/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '87th57heh135joqaaata4cfeo4a2n2ou'
+    '_csrf' => '6c5a0798f4db135b49b604e86669dd0e4fddfc04e49cf7319756995051211c94a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4OTFcmP820Goo85guuNIwry_V1O0BSe8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'qefoqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'crud'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://crud/web/index.php?r=site%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=87th57heh135joqaaata4cfeo4a2n2ou; _csrf=6c5a0798f4db135b49b604e86669dd0e4fddfc04e49cf7319756995051211c94a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224OTFcmP820Goo85guuNIwry_V1O0BSe8%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.0\\ext;c:\\openserver\\modules\\php\\PHP_8.0\\pear;c:\\openserver\\modules\\php\\PHP_8.0\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.0;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.7\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'crud'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/crud'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/crud'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/crud/web/index.php'
+    'REMOTE_PORT' => '55707'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcreate'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fcreate'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1667232147.9373
+    'REQUEST_TIME' => 1667232147
+]
+2022-10-31 19:02:30 [127.0.0.1][-][87th57heh135joqaaata4cfeo4a2n2ou][error][Error] Error: Class "yii\helpexrs\html" not found in C:\OpenServer\domains\crud\views\site\create.php:44
+Stack trace:
+#0 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\View.php(347): require()
+#1 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#2 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#3 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render()
+#4 C:\OpenServer\domains\crud\controllers\SiteController.php(71): yii\base\Controller->render()
+#5 [internal function]: app\controllers\SiteController->actionCreate()
+#6 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#7 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#8 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#9 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#10 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#11 C:\OpenServer\domains\crud\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2022-10-31 19:02:30 [127.0.0.1][-][87th57heh135joqaaata4cfeo4a2n2ou][info][application] $_GET = [
+    'r' => 'site/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '87th57heh135joqaaata4cfeo4a2n2ou'
+    '_csrf' => '6c5a0798f4db135b49b604e86669dd0e4fddfc04e49cf7319756995051211c94a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4OTFcmP820Goo85guuNIwry_V1O0BSe8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'qefoqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'crud'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://crud/web/index.php?r=site%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=87th57heh135joqaaata4cfeo4a2n2ou; _csrf=6c5a0798f4db135b49b604e86669dd0e4fddfc04e49cf7319756995051211c94a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224OTFcmP820Goo85guuNIwry_V1O0BSe8%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.0\\ext;c:\\openserver\\modules\\php\\PHP_8.0\\pear;c:\\openserver\\modules\\php\\PHP_8.0\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.0;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.7\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'crud'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/crud'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/crud'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/crud/web/index.php'
+    'REMOTE_PORT' => '55708'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcreate'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fcreate'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1667232150.6417
+    'REQUEST_TIME' => 1667232150
+]
+2022-10-31 19:03:21 [127.0.0.1][-][87th57heh135joqaaata4cfeo4a2n2ou][error][Error] Error: Class "yii\helpexrs\html" not found in C:\OpenServer\domains\crud\views\site\create.php:44
+Stack trace:
+#0 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\View.php(347): require()
+#1 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#2 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#3 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render()
+#4 C:\OpenServer\domains\crud\controllers\SiteController.php(71): yii\base\Controller->render()
+#5 [internal function]: app\controllers\SiteController->actionCreate()
+#6 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#7 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#8 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#9 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#10 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#11 C:\OpenServer\domains\crud\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2022-10-31 19:03:21 [127.0.0.1][-][87th57heh135joqaaata4cfeo4a2n2ou][info][application] $_GET = [
+    'r' => 'site/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '87th57heh135joqaaata4cfeo4a2n2ou'
+    '_csrf' => '6c5a0798f4db135b49b604e86669dd0e4fddfc04e49cf7319756995051211c94a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4OTFcmP820Goo85guuNIwry_V1O0BSe8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'qefoqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'crud'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://crud/web/index.php?r=site%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=87th57heh135joqaaata4cfeo4a2n2ou; _csrf=6c5a0798f4db135b49b604e86669dd0e4fddfc04e49cf7319756995051211c94a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224OTFcmP820Goo85guuNIwry_V1O0BSe8%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.0\\ext;c:\\openserver\\modules\\php\\PHP_8.0\\pear;c:\\openserver\\modules\\php\\PHP_8.0\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.0;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.7\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'crud'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/crud'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/crud'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/crud/web/index.php'
+    'REMOTE_PORT' => '55717'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcreate'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fcreate'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1667232201.4991
+    'REQUEST_TIME' => 1667232201
+]
+2022-10-31 19:03:22 [127.0.0.1][-][87th57heh135joqaaata4cfeo4a2n2ou][error][Error] Error: Class "yii\helpexrs\html" not found in C:\OpenServer\domains\crud\views\site\create.php:44
+Stack trace:
+#0 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\View.php(347): require()
+#1 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#2 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#3 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render()
+#4 C:\OpenServer\domains\crud\controllers\SiteController.php(71): yii\base\Controller->render()
+#5 [internal function]: app\controllers\SiteController->actionCreate()
+#6 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#7 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#8 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#9 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#10 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#11 C:\OpenServer\domains\crud\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2022-10-31 19:03:22 [127.0.0.1][-][87th57heh135joqaaata4cfeo4a2n2ou][info][application] $_GET = [
+    'r' => 'site/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '87th57heh135joqaaata4cfeo4a2n2ou'
+    '_csrf' => '6c5a0798f4db135b49b604e86669dd0e4fddfc04e49cf7319756995051211c94a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4OTFcmP820Goo85guuNIwry_V1O0BSe8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'qefoqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'crud'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://crud/web/index.php?r=site%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=87th57heh135joqaaata4cfeo4a2n2ou; _csrf=6c5a0798f4db135b49b604e86669dd0e4fddfc04e49cf7319756995051211c94a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224OTFcmP820Goo85guuNIwry_V1O0BSe8%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.0\\ext;c:\\openserver\\modules\\php\\PHP_8.0\\pear;c:\\openserver\\modules\\php\\PHP_8.0\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.0;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.7\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'crud'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/crud'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/crud'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/crud/web/index.php'
+    'REMOTE_PORT' => '55718'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcreate'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fcreate'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1667232202.1766
+    'REQUEST_TIME' => 1667232202
+]
+2022-10-31 19:32:23 [127.0.0.1][-][87th57heh135joqaaata4cfeo4a2n2ou][error][Error] Error: Undefined constant "php" in C:\OpenServer\domains\crud\views\site\view.php:1
+Stack trace:
+#0 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\View.php(347): require()
+#1 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile()
+#2 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile()
+#3 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render()
+#4 C:\OpenServer\domains\crud\controllers\SiteController.php(84): yii\base\Controller->render()
+#5 [internal function]: app\controllers\SiteController->actionView()
+#6 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#7 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#8 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#9 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#10 C:\OpenServer\domains\crud\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#11 C:\OpenServer\domains\crud\web\index.php(12): yii\base\Application->run()
+#12 {main}
+2022-10-31 19:32:23 [127.0.0.1][-][87th57heh135joqaaata4cfeo4a2n2ou][info][application] $_GET = [
+    'r' => 'site/view'
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => '87th57heh135joqaaata4cfeo4a2n2ou'
+    '_csrf' => '6c5a0798f4db135b49b604e86669dd0e4fddfc04e49cf7319756995051211c94a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"4OTFcmP820Goo85guuNIwry_V1O0BSe8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__captcha/site/captcha' => 'qefoqu'
+    '__captcha/site/captchacount' => 1
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'crud'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://crud/web/index.php?r=site%2Findex'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=87th57heh135joqaaata4cfeo4a2n2ou; _csrf=6c5a0798f4db135b49b604e86669dd0e4fddfc04e49cf7319756995051211c94a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%224OTFcmP820Goo85guuNIwry_V1O0BSe8%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP_8.0\\ext;c:\\openserver\\modules\\php\\PHP_8.0\\pear;c:\\openserver\\modules\\php\\PHP_8.0\\pear\\bin;c:\\openserver\\modules\\php\\PHP_8.0;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\database\\MySQL-5.7\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0\\bin;c:\\openserver\\modules\\http\\Apache_2.4-PHP_8.0;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'crud'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/crud'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/crud'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/crud/web/index.php'
+    'REMOTE_PORT' => '55997'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fview&id=1'
+    'REQUEST_URI' => '/web/index.php?r=site%2Fview&id=1'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1667233943.1899
+    'REQUEST_TIME' => 1667233943
+]
